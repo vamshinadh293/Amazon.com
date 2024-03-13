@@ -1,0 +1,363 @@
+*{
+    margin:0%;
+    font-family: Arial;
+    border:border-box;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.Nav-bar{
+    height:60px;
+    color: white;
+    background-color:#131921;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* logo */
+.nav-logo{
+    width:113px;
+    height:50px;
+}
+.Logo{
+    background-image: url("Amazon_logo.png");
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+}
+/* Location */
+.nav-address{
+    padding-right:5px;
+    height:35px;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:5px 5px;
+    padding:10px 5px;
+}
+.delivery-to{
+    font-size: 0.7rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.loc-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.location{
+    display: flex;
+    text-align: center;
+}
+
+/* Searchbar */
+.nav-search{
+    display: flex;
+    width:60%;
+    height: 40px;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border:2px solid transparent;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.selectoption{
+    height: 40px;
+    width:60px;
+    font-size: 0.8rem;
+    background-color: #e6e6e6;
+    color:#3e3f3f;
+    padding-left: 5px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.searchbar{
+    width:100%;
+    height: 38px;
+    border:none;
+    font-size: 1rem;
+}
+.search-icon{
+    width:45px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+}
+/* Lang */
+.languagE{
+    display:flex;
+    width: 50px;
+    margin:7px 5px 3px 5px;
+    height:50px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+.languagE i{
+    font-size: 0.85rem;
+    margin:7px 5px 3px;
+}
+
+
+/* Signin */
+.signin{
+    height: 40px;
+    padding:10px 9px 2px;
+    margin:5px;
+}
+.pix12{
+    font-size: 0.7rem;
+    color:#cccccc;
+}
+.pix14{
+    font-size: 0.9rem;
+    font-weight: 650;
+}
+/* Cart */
+.cart{
+    display:flex;
+    align-items: center;
+    height:50px;
+    margin:5px 10px 5px 5px;
+}
+.cart i{
+    font-size: 1.65rem;
+}
+.Ctext{
+    font-size: 0.95rem;
+    padding-top: 17px;
+    font-weight: 700;
+}
+/* Menu panel  */
+.menuPanel{
+    height:39px;
+    display: flex;
+    background-color: #232f3e;
+    color:white;
+    align-items: center;
+}
+/* menu all section in menu panel  */
+.menu-all{
+    font-size:1rem;
+    width: 41px;
+    padding: 9px 8px 9px 8px;
+    display:flex;
+    justify-content: center;
+}
+.menu-all i{
+    padding-right:5px;
+    font-size:1.1rem;
+}
+/* Menu categories in menupanel */
+.menu-categories{
+    display:flex;
+    width: 100%;
+    font-size:1rem;
+    align-items: center;
+}
+.menu-categories p{
+    padding-left:10px;
+    padding-right:10px;
+    height:39px;
+    display: flex;
+    align-items: center;
+}
+/* .Hero-section  */
+.Hero-section{
+    background-image: url("Hero-image.jpg");
+    height:300px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Hero-msg{
+    color: black;
+    height: 40px;
+    width:90%;
+    display: flex;
+    font-size: 0.95rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.Hero-msg p{
+    padding: 14px 0px;
+}
+.Hero-msg a{
+    color:#007185;
+}
+
+/* commmon for all combo boxes   */
+.combo-boxes{
+    display:block;
+    background-color:#d4a3d2;
+    height:950px;
+}
+.combo-boxes hr{
+    color:transparent;
+    height:20px;
+    width:100%;
+}
+/* div box for all boxes */
+.divbox{
+    height: 400px;
+    padding: 20px 0px 15px 0px;
+    display: flex;
+}
+/* shop-now button for all boxes */
+.shop-now{
+    color:#007185;
+    height:19px;
+    margin-bottom:25px;
+}
+.shop-now:hover{
+    color:#febd69;
+    font-size:20px;
+}
+/* xbox which is single image box  */
+
+.xbox-content{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:23%;
+    margin:20px 10px 15px;
+    padding:20px;
+    background-color: white;
+    background-size: cover;
+}
+.xbox-img{
+    padding:10px 0px;
+}
+/* ybox 4 images */
+.ybox-content{
+    display:block;
+    height:100%;
+    width:23%;
+    margin:20px 10px 15px;
+    padding:20px;
+    background-color:white;
+}
+.yimg-set{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+}
+.yimg-single{
+    display: block;
+    padding:0px 7px 0px 7px;
+}
+/* zbox 1 hero 3 small images */
+.zbox-content{
+    display:block;
+    height:100%;
+    width:23%;
+    margin:20px 10px 15px;
+    padding:20px;
+    background-color:white;
+}
+.zimage3div{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0px 10px;
+}
+.zimage3div img{
+    margin:5px;
+}
+.zimage-single{
+    display:block;
+}
+.zbox-img{
+    padding:10px 0px 0px 0px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+/* footer panel1 */
+.footer1{
+    height:50px;
+    width:100%;
+    color:white;
+    background-color:#37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1 span{
+    color:white;
+}
+.footer1:hover{
+    background-color:#414e5e;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    height:350px;
+    background-color: #232f3e;
+    color: white;
+    padding: 25px 10px;
+}
+.ulfoot a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#dddddd;
+}
+.footer2 p{
+    margin:6px 0px 14px;
+    font-size: 1.1rem;;
+}
+.footer2 ul{
+    padding:10px 0px 0px 0px;
+}
+.footer3{
+    height: 68px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fLogo{
+    background-image: url("Amazon_logo.png");
+    height: 68px;
+    width: 145px;
+    background-size: cover;
+}
+
+.footer4{
+    color:#dddddd;
+    background-color: #131921;
+    height:78px;
+    font-size:0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer4 a{
+    padding: 5px;
+    color:#dddddd;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+.footer4div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer4div ul{
+    padding:0px;
+}
